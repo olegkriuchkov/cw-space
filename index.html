@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <meta charset="UTF-8"> -->
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<title>OPEN</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://js.cx/libs/animate.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+	<header id="scrollDestination">
+		<div class="container">
+			<div class="row">
+				<nav class="col-md-3">
+
+					<div class="hamburger" onclick="hamburgerClickHandler()" id="hamburger">
+						<div class="bar_1"></div>
+						<div class="bar_2"></div>
+						<div class="bar_3"></div>
+					</div>
+					<ul>
+						<li><a href="#advantages">Advantage</a></li>
+						<li><a href="#ouroffices">Our offices</a></li>
+						<li><a href="#discount">Discount</a></li>
+						<li><a href="#statistics">Statistics</a></li>
+						<li><a href="#reviews">Reviews</a></li>
+						<li><a href="#details">Details</a></li>
+						<li><a href="#gift">Gift</a></li>
+						<li><a href="#contacts">Contacts</a></li>
+					</ul>
+					
+				</nav>
+		
+				<div class="col-md-3 hidden-xs hidden-sm address_mail">
+					<span>Kharkiv, 3, Sumskaya st.</span>
+					<span>info@open1969.com</span>
+				</div>
+				<div class="col-md-3 hidden-xs hidden-sm phone_numbers">
+				 	<span>+38 (068) 089-48-83</span>
+				 	<span>+38 (099) 554-93-65</span>
+				</div>
+				<div class="col-md-3 hidden-xs hidden-sm socials">
+				 	<a href=""><img src="images/twitter.png"></a>
+				 	<a href=""><img src="images/instagram.png"></a>
+				 	<a href=""><img src="images/facebook.png"></a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="banner">
+		<div class="container">
+			<div class="row">
+				<aside class="col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
+					<div>Coworking space</div>
+					<a href="#"><img src="images/logo.png"></a>
+					<div>European office in the center</div>
+					<div class="form">
+						<div>book your place right now</div>
+						<form id="form">
+							<input type="text" name="userName" placeholder="Your name" required autocomplete="off">
+							<input type="number" name="userNumber" placeholder="Your phonenumber" required autocomplete="off">
+							<button type="submit">book</button>
+						</form>
+					</div>
+				</aside>
+			</div>
+			<div class="arrow" href="#advantages"></div>
+		</div>
+	</section>
+
+	<main>
+		
+		<section class="advantage_block container" id="advantages">
+			<div class="why_we col-sm-4 col-sm-offset-4">why <span>we</span></div>
+			<div class="row">
+				<section class="slogan col-lg-6 col-lg-offset-0 col-xs-8 col-xs-offset-2">Great companies<br> start in good company</section>
+				<section class="advantages col-lg-6 clearfix">
+					<div class="advantage_column_left">
+						<div class="modern_equipment clearfix">
+							<img src="images/main/modern_equipment.png">
+							<span>Modern equipment,<br>Powerful computers</span>
+						</div>
+						<div class="comfortable_rooms clearfix">
+							<img src="images/main/comfortable_rooms.png">
+							<span>Comfortable meeting<br>rooms, with the whole<br> set ofequipment</span>
+						</div>
+						<div class="access clearfix">
+							<img src="images/main/access.png">
+							<span>Access to the <br>office 24/7</span>
+						</div>
+					</div>
+					<div class="advantage_column_right">
+						<div class="various_events clearfix">
+							<img src="images/main/various_events.png">
+							<span>Various public<br>events</span>
+						</div>
+						<div class="discounts clearfix">
+							<img src="images/main/discounts.png">
+							<span>Discounts<br>for regular<br>customers</span>
+						</div>
+						<div class="quality_cleaning clearfix">
+							<img src="images/main/quality_cleaning.png">
+							<span>Quality daily<br>wet cleaning</span>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<section class="container office_seats" id="ouroffices">
+			<section class="_50_seats clearfix">
+				<div class="gradient_orange">
+					<div class="col-lg-5 col-lg-offset-7 col-sm-8 col-sm-offset-2">
+						<div class="office_seats_heading">office 50 seats</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus suntaspernatur modi unde perspiciatis inventore officia numquam quidem cupiditatevoluptates amet voluptas, cum provident?</p>
+						<button>book</button>
+					</div>
+				</div>
+			</section>
+			<section class="_20_seats clearfix">
+				<div class="gradient_red">
+					<div class="col-lg-5 col-lg-offset-0 col-sm-8 col-sm-offset-2">
+						<div class="office_seats_heading">office 20 seats</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus suntaspernatur modi unde perspiciatis inventore officia numquam quidem cupiditatevoluptates amet voluptas, cum provident?</p>
+						<button>book</button>
+					</div>
+				</div>
+			</section>
+			<section class="_6_seats clearfix">
+				<div class="gradient_blue">
+					<div class="col-lg-5 col-lg-offset-7 col-sm-8 col-sm-offset-2">
+						<div class="office_seats_heading">office 6 seats</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus suntaspernatur modi unde perspiciatis inventore officia numquam quidem cupiditatevoluptates amet voluptas, cum provident?</p>
+						<button>book</button>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<section class="girl container" id="discount">
+			<div class="girl_square">
+				<img src="images/main/girl.png">
+				<div class="row">
+					<div class="girl_form col-lg-5 col-lg-offset-7 col-md-offset-2 col-md-8">
+						<div class="form_heading">
+							<div>hurry up</div>
+							<div>and get</div>
+							<div>40% discount</div>
+						</div>
+						<form>
+							<input type="text" name="userName" placeholder="Your name" required autocomplete="off">
+							<input type="number" name="userNumber" placeholder="Your phone number" required autocomplete="off">
+							<button type="submit">book</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="container">
+			<section class="statistics" id="statistics">
+				<div class="statistics_background">
+					<div class="row">
+						<div class="space col-lg-3 col-md-6">
+							<div class="number">1,051</div>
+							<div class="border">space</div>
+						</div>
+						<div class="offices col-lg-3 col-md-6">
+							<div class="number">15</div>
+							<div class="border">offices</div>
+						</div>
+						<div class="computers col-lg-3 col-md-6">
+							<div class="number">670</div>
+							<div class="border">computers</div>
+						</div>
+						<div class="customers col-lg-3 col-md-6">
+							<div class="number">5,780</div>
+							<div class="border">customers</div>
+						</div>
+					</div>
+				</div>
+				<div class="statistic_hidden">
+					<div class="row">
+						<div class="statistic_hidden_background  col-sm-4 col-sm-offset-1">
+							<div class="space">
+								<div class="number">1,051</div>
+								<div class="border">space</div>
+							</div>
+						</div>
+						<div class="statistic_hidden_background col-sm-4 col-sm-offset-2">
+							<div class="offices">
+								<div class="number">15</div>
+								<div class="border">offices</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="statistic_hidden_background  col-sm-4 col-sm-offset-1">
+							<div class="computers">
+								<div class="number">670</div>
+								<div class="border">computers</div>
+							</div>
+						</div>
+						<div class="statistic_hidden_background col-sm-4 col-sm-offset-2">
+							<div class="customers">
+								<div class="number">5,780</div>
+								<div class="border">customers</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>	
+
+		<section class="slider container" id="reviews">
+			<div class="first-slide" id="first-slide">
+				<div class="top_row">
+					<svg width="100%" height="850">
+						<defs>
+							<pattern id="slider-chair" patternUnits="userSpaceOnUse" x="40" y="20" width="357" height="403"> 
+						    	<image xlink:href="images/main/slider/slider-chair.png" width="357" height="403"></image> 
+						    </pattern>
+						    <pattern id="alex" patternUnits="userSpaceOnUse" x="224" y="20" width="365" height="403"> 
+						    	<image xlink:href="images/main/slider/alex.png" width="357" height="403"><image> 
+						    </pattern>
+						    <pattern id="desk" patternUnits="userSpaceOnUse" x="407" y="23" width="365" height="403"> 
+						    	<image xlink:href="images/main/slider/desk.png" width="357" height="400"><image> 
+						    </pattern>
+						    <pattern id="den" patternUnits="userSpaceOnUse" x="591" y="23" width="365" height="403"> 
+						    	<image xlink:href="images/main/slider/den.png" width="357" height="400"><image> 
+						    </pattern>
+						    <pattern id="slider-chairs" patternUnits="userSpaceOnUse" x="774" y="23" width="365" height="403"> 
+						    	<image xlink:href="images/main/slider/slider-chairs.png" width="357" heigh="400"></image> 
+						    </pattern>
+						    <pattern id="anna" patternUnits="userSpaceOnUse" x="40" y="28" width="357" height="403"> 
+						    	<image xlink:href="images/main/slider/anna.png" width="357" height="403"><image> 
+						    </pattern>
+						    <pattern id="unknown-man" patternUnits="userSpaceOnUse" x="224" y="28" width="365" height="403"> 
+						    	<image xlink:href="images/main/slider/unknown-man.png" width="357" height="403"></image> 
+						    </pattern>
+						    <pattern id="two-chairs" patternUnits="userSpaceOnUse" x="407" y="28" width="365" height="403"> 
+						    	<image xlink:href="images/main/slider/two-chairs.png" width="357" height="400"></image> 
+						    </pattern>
+						    <pattern id="elephant" patternUnits="userSpaceOnUse" x="591" y="28" width="365" height="403"> 
+						    	<image xlink:href="images/main/slider/elephant.png" width="357" height="400"></image> 
+						    </pattern>
+						    <pattern id="jane" patternUnits="userSpaceOnUse" x="774" y="28" width="365" height="403"> 
+						    	<image xlink:href="images/main/slider/jane.png" width="357" height="400"><image> 
+						    </pattern>
+						</defs>
+						<polygon class="slider-chair" points="40,20 397,20 219,423"/>
+						<polygon class="alex" points="402,20 224,423 581,423" data-author="alex"/>
+						<polygon class="desk" points="407,20 764,20 586,423"/>
+						<polygon class="den" points="769,20 591,423 948,423" data-author="den"/>
+						<polygon class="slider-chairs" points="774,20 1131,20 953,423"/>
+						
+
+						<polygon class="anna" points="219,428 40,831 397,831" data-author="anna"/>
+						<polygon class="unknown-man" points="224,428 581,428 402,831"/>
+						<polygon class="two-chairs" points="586,428 407,831 764,831"/>
+						<polygon class="elephant" points="591,428 948,428 769,831"/>
+						<polygon class="jane" points="953,428 774,831 1131,831" data-author="jane"/>
+
+						<polygon class="comment-alex" points="40,20 397,20 219,423"/>
+						<polygon class="comment-den" points="774,20 1131,20 953,423"/>
+						<polygon class="comment-anna" points="224,428 581,428 402,831"/>
+						<polygon class="comment-jane" points="591,428 948,428 769,831"/>
+
+						
+						<div class="alex-text">
+							<p>Сonsectetuer adipiscing elit. Aenean commodo ligula eget dolo</p>
+						</div>
+						<div class="den-text">
+							<p>Сonsectetuer adipiscing elit. Aenean commodo ligula eget dolo</p>
+						</div>
+						<div class="anna-text">
+							<p>Сonsectetuer adipiscing elit. Aenean commodo ligula eget dolo</p>
+						</div>
+						<div class="jane-text">
+							<p>Сonsectetuer adipiscing elit. Aenean commodo ligula eget dolo</p>
+						</div>
+						
+					</svg>
+				</div>
+			</div>
+				
+			<div class="slider_arrows slider_arrow_left" id="sliderBtn"><span></span></div>
+			<div class="slider_arrows slider_arrow_right" id="sliderBtn"><span></span></div>
+		</section>
+
+		<section class="chair container" id="details">
+			<div class="chair_square">
+				<div class="row">
+					<div class="extra_slogan col-lg-8 col-xs-12">It's all in the details</div>
+					<div class="extra_advantages col-lg-4  col-xs-12">
+						<div class="aaa clearfix">
+							<div class="metro clearfix">
+								<img src="images/main/chair/metro.png">
+								<span>Great location,<br> 5 minutes to metro</span>
+							</div>
+							<div class="cup clearfix">
+								<img src="images/main/chair/cup.png">
+								<span>Free tea, coffee <br> and sweets</span>
+							</div>
+						</div>
+						<div class="bbb clearfix">
+							<div class="book clearfix">
+								<img src="images/main/chair/book.png">
+								<span>Our own little <br>library</span>
+							</div>
+							<div class="people clearfix">
+								<img src="images/main/chair/people.png">
+								<span>Always good <br>company</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+		<section class="red_girl container" id="gift">
+			<div class="row">
+				<div class="red_girl_form col-lg-5 col-md-6">
+					<div class="red_girl_form_heading">
+						<div>get a month free</div>
+						<div>Take part in the action simply sybscribe to us</div>
+					</div>
+					<form>
+						<input type="text" name="userName" placeholder="Your name" required autocomplete=off">
+						<input type="number" name="userNumber" placeholder="Your phone number" requiredautocomplete="off">
+						<button type="submit">take part</button>
+					</form>
+				</div>
+			</div>
+			<div class="join">
+				<div>join the team</div>
+				<div>work with us</div>
+			</div>
+		</section>
+
+		<section class="location container" id="contacts">
+			<div class="location_square">
+				<div class="text">
+					<div>location</div>
+					<p>Central Kharkiv is the perfect location because of its close proximity to thecommercial, retail and entertainment hubs.</p>
+				</div>	
+			</div>
+			<div class="park">
+				<div class="circle" id="location-point">
+					<div class="line" id="line"></div>
+					<span class="location-name" id="location-name">Park</span>
+				</div>
+			</div>
+			<div class="market">
+				<div class="circle" id="location-point">
+					<div class="line" id="line"></div>
+					<span class="location-name" id="location-name">Market</span>
+				</div>
+			</div>
+			<div class="mcdonalds">
+				<div class="circle" id="location-point">
+					<div class="line" id="line"></div>
+					<span class="location-name" id="location-name">Mcdonald's</span>
+				</div>
+			</div>
+			<div class="coffee_life">
+				<div class="circle" id="location-point">
+					<div class="line" id="line"></div>
+					<span class="location-name" id="location-name">Coffee life</span>
+				</div>
+			</div>
+			<div class="open">
+				<div class="circle" id="location-point">
+					<div class="line" id="line"></div>
+					<span class="location-name" id="location-name">Open</span>
+				</div>
+			</div>
+			</div>						
+		</section>
+	</main>	
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<section class="col-md-4 col-sm-12">
+					<div>coworking space</div>
+					<div>
+						<span>Kharkiv, 3, Sumskaya st.</span>
+						<span>info@open1916.com</span>
+					</div>
+				</section>
+				<section class="col-md-4 col-sm-12">
+					<div>follow us</div>
+					<div>
+						<a href=""><img src="images/twitter.png"></a>
+					 	<a href=""><img src="images/instagram.png"></a>
+					 	<a href=""><img src="images/facebook.png"></a>
+					</div>
+				</section>
+				<section class="col-md-4 col-sm-12">
+					<div>contact</div>
+					<div>
+						<span>+38 (068) 089-48-83</span>
+					 	<span>+38 (099) 554-93-65</span>
+					</div>
+				</section>
+			</div>
+			<div class="logo"><a href="#"><img src="images/logo.png"></a></div>
+		</div>
+	</footer>
+
+	<div class="popup col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" id="popup">
+		<div>
+			<div class="close_btn" id="popupCloseButton">
+				<div class="close_btn_bar1"></div>
+				<div class="close_btn_bar2"></div>
+			</div>
+			<div>Thank you,</div>
+			<div>your request has been accepted!</div>
+		</div>
+		<div>We are glad that you joined us</div>
+		<div>Our manager will contact you shortly</div>
+	</div>
+
+	<div class="scrollbtn" href="#scrollDestination">
+		<div class="scrollbtn_arrow"></div>
+		<div class="scrollbtn_arrow"></div>
+		<div class="scrollbtn_arrow"></div>
+	</div>
+
+	<div class="popup-form col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3" id="popup-form">
+		<div class="popup-form-close-btn" id="popupFormCloseButton">
+			<div class="popup-close-btn-bar1"></div>
+			<div class="popup-close-btn-bar2"></div>
+		</div>
+		<div>book your place right now</div>
+		<form id="form">
+			<input type="text" name="userName" placeholder="Your name" required autocomplete="off">
+			<input type="number" name="userNumber" placeholder="Your phonenumber" required autocomplete="off">
+			<button type="submit">book</button>
+		</form>
+	</div>
+
+
+
+</body>
+</html>
